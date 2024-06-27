@@ -1,0 +1,15 @@
+@import "../../assets/variables.scss";
+
+.tasks__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    background-color: $backgroundInfo;
+    color: $darkInfo;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.07px;
+}
