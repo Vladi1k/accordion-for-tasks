@@ -1,0 +1,63 @@
+@import "../../assets/variables.scss";
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownButton{
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    background: $lightButton;
+    padding: 8px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%; 
+    letter-spacing: 0.112px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    min-width: 102px;
+}
+
+.paused{
+    background-color: #FFCCDD;
+}
+
+.dropdownButton:hover{
+    background-color: #CEFDED;
+}
+
+.arrow{
+    margin-left: 4px;
+}
+
+.dropdownContent{
+    position: absolute;
+    display: block;
+    margin-top: 10px;
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1;
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: 0.112px;
+    padding: 5px 5px;
+    background-color: #ffff;
+}
+
+.dropdownItem{
+    margin-bottom: 8px;
+    padding-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 8px;
+    border: 1px solid #a5a3a3;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.dropdownItem:hover{
+    border-color: #fa0d5c;
+}
