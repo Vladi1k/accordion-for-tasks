@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/accordion-for-tasks/static/css/main.d8ba92ae.css",
+    "main.js": "/accordion-for-tasks/static/js/main.1423ebaa.js",
+    "index.html": "/accordion-for-tasks/index.html",
+    "main.d8ba92ae.css.map": "/accordion-for-tasks/static/css/main.d8ba92ae.css.map",
+    "main.1423ebaa.js.map": "/accordion-for-tasks/static/js/main.1423ebaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ba92ae.css",
+    "static/js/main.1423ebaa.js"
+  ]
+}
