@@ -11,3 +11,30 @@
 .tasks__item:hover{
     background-color: $hover;
 }
+
+.header{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    background-color: $headerBackground;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.header:hover{
+    background-color:#d4d4ee;
+}
+
+.header__arrow{
+    margin-left: 8px;
+}
+
+.header__text{
+    display: inline-block;
+    width: 212px;
+    margin-left: 12px;
+}
